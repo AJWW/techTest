@@ -7,412 +7,532 @@
     <link href="../Content/css/styles.css" rel="stylesheet">
     <link href="../Content/css/bootstrap.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3ca7978466.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-auto">
-            Excellent Trust Pilot Stuff
-            </div>
-            <div class="col-auto ml-auto">
-                <ul class="nav">
-                    <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-map-marker-alt me-1"></i>Shop by School</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-calendar me-1"></i>Book Appointment</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-phone-alt me-1"></i>Contact Store</a>
-                    </li>
-                </ul>
-                
-            </div>
-            <div class="col-auto">
-                <a class="" href="#"><i class="fas fa-user-circle"></i></a>
-                <a class="" href="#"><i class="fas fa-heart"></i></a>
-                <a class="" href="#"><i class="fas fa-shopping-bag"></i></a>
+<body class="bg-light">
+    <div id="nav" class="bg-white">
+        <div class="container-fluid py-2 d-lg-block d-none" id="preNav">
+            <div class="row">
+                <div class="col-auto ps-4">
+                    <p class="d-inline fw-bold">
+                    Excellent
+                    </p>
+                    <img id="review" class="d-inline" src="../Content/imgs/trustpilot-review.png">
+                    <img id="logo" class="d-inline" src="../Content/imgs/trustpilot-logo.png">             
+                </div>
+                <div class="col">
+                    <ul class="nav">
+                        <li class="nav-item ms-auto pe-4">
+                            <a class="nav-link text-primary fw-bold" href="#"><i class="fas fa-map-marker-alt me-2"></i>Shop by School</a>
+                        </li>
+                        <li class="nav-item pe-4">
+                            <a class="nav-link text-primary fw-bold" href="#"><i class="fas fa-calendar me-2"></i>Book Appointment</a>
+                        </li>
+                        <li class="nav-item pe-4">
+                            <a class="nav-link text-primary fw-bold" href="#"><i class="fas fa-phone-alt me-2"></i>Contact Store</a>
+                        </li>
+                        <li class="nav-item pe-4">
+                            <a class="nav-link text-primary fw-bold" href="#"><i class="fas fa-user-circle"></i></a>
+                        </li>
+                        <li class="nav-item pe-4">
+                            <a class="nav-link text-primary fw-bold" href="#"><i class="fas fa-heart"></i></a>
+                        </li>
+                        <li class="nav-item pe-4">
+                            <a class="nav-link text-primary fw-bold" href="#"><i class="fas fa-shopping-bag"></i></a>
+                        </li>
+                    </ul>               
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                      <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Navbar</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                          <ul class="navbar-nav">
-                            <li class="nav-item">
-                              <a class="nav-link active" aria-current="page" href="#">Shirts & Blouses</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Skirts</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Trousers</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Blazers</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Sportswear</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Accessories</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                More
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Item 1</a></li>
-                                <li><a class="dropdown-item" href="#">Item 2</a></li>
-                                <li><a class="dropdown-item" href="#">Item 3</a></li>
-                                </ul>
-                            </li>
-                          </ul>
+        <div class="container-fluid" id="mainNav">
+            <div class="row">
+                <div class="col py-2">
+                    <nav class="navbar navbar-expand-xl navbar-light">
+                          <div class="container-fluid">
+                            <a class="navbar-brand" href="#"><img src="../Content/imgs/clive-mark-logo.svg"></a>                   
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                              <ul class="navbar-nav">
+                                <li class="nav-item px-2">
+                                  <a class="nav-link pb-0 text-primary fw-bold text-uppercase" aria-current="page" href="#">Shirts & Blouses</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                  <a class="nav-link pb-0 text-primary fw-bold text-uppercase" href="#">Skirts</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                  <a class="nav-link pb-0 text-primary fw-bold text-uppercase" href="#">Trousers</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                  <a class="nav-link pb-0 text-primary fw-bold text-uppercase" href="#">Blazers</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                  <a class="nav-link pb-0 text-primary fw-bold text-uppercase" href="#">Sportswear</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                  <a class="nav-link pb-0 text-primary fw-bold text-uppercase" href="#">Accessories</a>
+                                </li>
+                                <li class="nav-item dropdown  px-2">
+                                    <a class="nav-link pb-0 dropdown-toggle text-primary fw-bold text-uppercase" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    More
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Item 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Item 2</a></li>
+                                    <li><a class="dropdown-item" href="#">Item 3</a></li>
+                                    </ul>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                    </nav>
+                </div>
+                <div class="col-auto d-lg-none d-block" id="shoppingBagMobile"> 
+                    <div class="row h-100">
+                        <div class="col-12 align-self-center">
+                            <a class="" href=""><i class="fas fa-lg fa-shopping-bag text-primary pe-5"></i></a>
                         </div>
-                      </div>
-                </nav>
-            </div>
-            <div class="col-auto">
-                <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                <div class="col-auto bg-light d-xl-none d-block text-left" id="hamburgerNav">
+                    <div class="row h-100">
+                        <div class="col-12 align-self-center">
+                            <a class="" href=""><i class="fas fa-lg fa-bars text-primary ps-3"></i></a>
+                        </div>
+                    </div>
+                </div>                      
+                <div class="col-auto bg-primary py-2 text-center" id="searchSection">
+                    <div class="row h-100">
+                        <div class="col-12 align-self-center">
+                            <a class="" href=""><i class="fas fa-lg fa-search text-white"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav aria-label="breadcrumb">
-                  <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Shop by School</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Aldridge School</li>
-                  </ol>
-                </nav>
+    <div class="container-fluid pt-5">
+        <div class="container d-md-block d-none" id="breadcrumbSection">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                        <li class="breadcrumb-item text-uppercase"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item text-uppercase"><a href="#">Shop by School</a></li>
+                        <li class="breadcrumb-item text-uppercase active" aria-current="page">Aldridge School</li>
+                        </ol>
+                    </nav>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-12">
-                <div id="imageCarousel" class="carousel slide" data-ride="carousel" align="center">
-                    <!-- slides -->
-                    <div class="carousel-inner">
-                        <div class="carousel-item active"> <img src="https://via.placeholder.com/500" alt=""> </div>
-                        <div class="carousel-item"> <img src="https://via.placeholder.com/501" alt="Hills"> </div>
-                        <div class="carousel-item"> <img src="https://via.placeholder.com/502" alt="Hills"> </div>
-                        <div class="carousel-item"> <img src="https://via.placeholder.com/503" alt="Hills"> </div>
-                    </div> <!-- Left right --> <a class="carousel-control-prev" href="#imageCarousel" data-slide="prev"> <span class="carousel-control-prev-icon"></span> </a> <a class="carousel-control-next" href="#imageCarousel" data-slide="next"> <span class="carousel-control-next-icon"></span> </a> <!-- Thumbnails -->
-                    <ol class="carousel-indicators list-inline">
-                        <li class="list-inline-item active"> 
-                            <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#imageCarousel"> 
-                                <img src="https://via.placeholder.com/500" class="img-fluid"> 
-                            </a> 
-                        </li>
-                        <li class="list-inline-item"> 
-                            <a id="carousel-selector-1" data-slide-to="1" data-target="#imageCarousel">
-                                <img src="https://via.placeholder.com/501" class="img-fluid">
-                            </a> 
-                        </li>
-                        <li class="list-inline-item"> 
-                            <a id="carousel-selector-2" data-slide-to="2" data-target="#imageCarousel"> 
-                                <img src="https://via.placeholder.com/502" class="img-fluid"> 
-                            </a> 
-                        </li>
-                        <li class="list-inline-item"> 
-                            <a id="carousel-selector-2" data-slide-to="3" data-target="#imageCarousel"> 
-                                <img src="https://via.placeholder.com/503" class="img-fluid"> 
-                            </a> 
-                        </li>
-                    </ol>
-                </div>
-            </div>
-            <div class="col-md-6 col-12">
-                <div class="row">
-                    <div class="col-12">
-                        <h1>
-                            Aldridge School Girls Blazer
-                        </h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12" id="carouselSection">
+                    <div class="d-md-none d-block row mb-4">
+                        <div class="col-12">
+                            <h1 class="text-primary fw-bold mb-0">
+                                Aldridge School Girls Blazer
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="d-md-none d-block row mb-2">
+                        <div class="col-auto align-self-end">
+                            <h2 class="text-secondary fw-bold mb-0 d-inline me-3">
+                                £29.99
+                            </h2>
+                            <p class="mb-0 d-inline">
+                                <i class="fas fa-chart-bar text-secondary me-2"></i><a class="" href="#">Compare prices</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div id="imageCarousel" class="carousel slide" data-ride="carousel" align="center">
+                        <!-- Slides -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active"> <img src="../Content/imgs/blazer.jpg" alt="Blazer One"> </div>
+                            <div class="carousel-item"> <img src="../Content/imgs/blazer.jpg" alt="Blazer Two"> </div>
+                            <div class="carousel-item"> <img src="../Content/imgs/blazer.jpg" alt="Blazer Three"> </div>
+                            <div class="carousel-item"> <img src="../Content/imgs/blazer.jpg" alt="Blazer Four"> </div>
+                        </div> 
+                        <!-- Control --> 
+                        <a class="carousel-control-prev" href="#imageCarousel" data-slide="prev"><i class="fas fa-lg fa-chevron-left text-primary"></i></a> 
+                        <a class="carousel-control-next" href="#imageCarousel" data-slide="next"><i class="fas fa-lg fa-chevron-right text-primary"></i></a> 
+                        <!-- Thumbnails -->
+                        <ol class="carousel-indicators list-inline">
+                            <li class="list-inline-item active"> 
+                                <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#imageCarousel"> 
+                                    <img src="../Content/imgs/blazer.jpg" alt="Blazer One" class="img-fluid"> 
+                                </a> 
+                            </li>
+                            <li class="list-inline-item"> 
+                                <a id="carousel-selector-1" data-slide-to="1" data-target="#imageCarousel">
+                                    <img src="../Content/imgs/blazer.jpg" alt="Blazer Two" class="img-fluid">
+                                </a> 
+                            </li>
+                            <li class="list-inline-item"> 
+                                <a id="carousel-selector-2" data-slide-to="2" data-target="#imageCarousel"> 
+                                    <img src="../Content/imgs/blazer.jpg" alt="Blazer Three" class="img-fluid"> 
+                                </a> 
+                            </li>
+                            <li class="list-inline-item"> 
+                                <a id="carousel-selector-3" data-slide-to="3" data-target="#imageCarousel"> 
+                                    <img src="../Content/imgs/blazer.jpg" alt="Blazer Four" class="img-fluid"> 
+                                </a> 
+                            </li>
+                        </ol>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-auto">
-                        <h2>
-                            £29.99
-                        </h2>
+                <div class="col-md-6 col-12" id="productInfoSection">
+                    <div class="d-md-block d-none row mb-4">
+                        <div class="col-12">
+                            <h1 class="text-primary fw-bold mb-0">
+                                Aldridge School Girls Blazer
+                            </h1>
+                        </div>
                     </div>
-                    <div class="col">
-                        <p>
-                            <i class="fas fa-chart-bar"></i> <a class="" href="#">Compare prices</a>
-                        </p>
+                    <div class="d-md-block d-none row mb-3">
+                        <div class="col-auto align-self-end">
+                            <h2 class="text-secondary fw-bold mb-0 d-inline me-2">
+                                £29.99
+                            </h2>
+                            <p class="mb-0 d-inline">
+                                <i class="fas fa-chart-bar text-secondary me-2"></i><a class="" href="#">Compare prices</a>
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="alert alert-info">
-                            <div class="row">
-                                <div class="col-12">
-                                    <p><i class="fas fa-credit-card"></i> Make 3 payments of £9.99 with<span class="text-danger">KLARNA</span></p>
+                    <div class="row mb-4">
+                        <div class="col-12">
+                            <div class="alert alert-info" id="alertInfo">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p><i class="fas fa-credit-card text-secondary me-3"></i>Make 3 payments of £9.99 with <a href="#"><img src="../Content/imgs/klarna-logo.svg"></a></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p class="mb-0"><i class="fas fa-box text-secondary me-3"></i>Free delivery over £50</p>
+                                    </div>
+                                </div>                  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                        <h3 class="d-inline text-primary fw-bold text-uppercase">Colour</h3>
+                        <p class="d-inline text-primary">- Black</p>
+                        </div>
+                    </div>
+                    <div class="row mb-4" id="colourPicker">
+                        <div class="col-12">
+                            <div class="form-check form-check-inline" id="black">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            </div>
+                            <div class="form-check form-check-inline" id="navy">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            </div>
+                            <div class="form-check form-check-inline" id="grey">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            </div>
+                            <div class="form-check form-check-inline" id="purple">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            </div>
+                            <div class="form-check form-check-inline" id="red">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            </div>
+                            <div class="form-check form-check-inline" id="yellow">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            </div>
+                            <div class="form-check form-check-inline" id="blue">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            </div>
+                            <div class="form-check form-check-inline" id="lightGrey">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            </div>
+                            <div class="form-check form-check-inline" id="peach">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            </div>
+                            <div class="form-check form-check-inline" id="green">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            </div>
+                            <div class="form-check form-check-inline" id="lightBlue">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                        <h3 class="text-primary fw-bold text-uppercase">Size</h3>
+                        </div>
+                    </div>
+                    <div class="row" id="sizePicker">
+                        <div class="col-12">
+                            <div class="form-check form-check-inline me-0">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="sizeRadioOne" value="option1">
+                                <label class="form-check-label" for="sizeRadioOne">28</label>
+                            </div>
+                            <div class="form-check form-check-inline me-0">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="sizeRadioTwo" value="option1">
+                                <label class="form-check-label" for="sizeRadioTwo">29</label>
+                            </div>
+                            <div class="form-check form-check-inline me-0">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="sizeRadioThree" value="option1">
+                                <label class="form-check-label" for="sizeRadioThree">30</label>
+                            </div>
+                            <div class="form-check form-check-inline me-0">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="sizeRadioFour" value="option1">
+                                <label class="form-check-label" for="sizeRadioFour">31</label>
+                            </div>
+                            <div class="form-check form-check-inline me-0">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="sizeRadioFive" value="option1">
+                                <label class="form-check-label" for="sizeRadioFive">32</label>
+                            </div>
+                            <div class="form-check form-check-inline me-0">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="sizeRadioSix" value="option1">
+                                <label class="form-check-label" for="sizeRadioSix">33</label>
+                            </div>
+                            <div class="form-check form-check-inline me-0">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="sizeRadioSeven" value="option1">
+                                <label class="form-check-label" for="sizeRadioSeven">34</label>
+                            </div>
+                            <div class="form-check form-check-inline me-0">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="sizeRadioEight" value="option1">
+                                <label class="form-check-label" for="sizeRadioEight">35</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-12">
+                            <p class="mb-0">
+                                <i class="fas fa-ruler-horizontal text-secondary pe-2"></i><a class="" href="#">Size guide</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                        <h3 class="fw-bold text-primary text-uppercase">Monogram (+£3)</h3>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-12">
+                            <form>
+                                <input type="monogram" class="form-control rounded-0" id="monogramInput" placeholder="Add a monogram, up to 3 letters...">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row mb-4" id="quantityCount">
+                        <div class="col-auto d-md-block d-none">
+                            <div class="row bg-white border h-100 align-items-center ms-0">
+                                <div class="col"> 
+                                    <a href="#"><i class="fas fa-sm fa-minus text-secondary"></i></a>
+                                </div>
+                                <div class="col">
+                                    <h5>2</h5>
+                                </div>
+                                <div class="col">
+                                    <a href="#"><i class="fas fa-sm fa-plus text-secondary"></i></a>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <p><i class="fas fa-box"></i> Free delivery over £50</p>
-                                </div>
-                            </div>                  
+                        </div>
+                        <div class="col order-md-1 order-2 pe-0" id="addToBasket">
+                            <div class="d-grid gap-2">
+                                <a class="btn btn-primary btn-block rounded-0 fw-bold text-uppercase">Add to basket</a>
+                            </div>
+                        </div>
+                        <div class="col-auto order-md-2 order-1">
+                            <div class="d-grid gap-2">
+                                <a class="btn btn-secondary rounded-0"><i class="fas fa-heart"></i></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                    <h3 class="d-inline">COLOUR</h3><p class="d-inline">- Black</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
+                    <div class="row">
+                        <div class="col-12">
+                            <p><i class="fas fa-shopping-bag text-secondary me-2"></i> Also available from our <a class="" href="#">Walsall</a> store</p>
                         </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                    <h3>SIZE</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <p>
-                            <i class="fas fa-ruler-horizontal"></i> <a class="" href="#">Size guide</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                    <h3>Monogram (+£3)</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <form>
-                            <input type="monogram" class="form-control" id="monogramInput" placeholder="Add a monogram, up to 3 letters...">
-                        </form>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-auto">
-                    <p class="text-danger">+ 1 -</p>
-                    </div>
-                    <div class="col">
-                        <div class="d-grid gap-2">
-                            <a class="btn btn-primary btn-block">ADD TO BASKET</a>
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <a class="btn btn-secondary"><i class="fas fa-heart"></i></a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <p><i class="fas fa-shopping-bag"></i> Also available from our <a class="" href="#">Walsall</a> store</p>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="container d-lg-block d-none py-5 mb-5" id="productReviewSection">
+            <div class="row">
+                <div class="col-12">
+                    <div class="accordion" id="accordionSection">
+                        <ul class="nav nav-tabs border-0">
+                            <li class="nav-item bg-white p-3">
+                                <a class="nav-link border-0 text-center text-dark fw-bold pb-0" href="#" data-bs-toggle="collapse" data-bs-target="#productDescription" aria-expanded="true" aria-controls="productDescription">
+                                    Product Description
+                                </a>
+                            </li>
+                            <li class="nav-item bg-info ms-auto p-3">
+                                <a class="nav-link border-0 text-center text-dark fw-bold pb-0" href="#" data-bs-toggle="collapse" data-bs-target="#reviews" aria-expanded="false" aria-controls="reviews">
+                                    Reviews
+                                </a>
+                            </li>
+                        </ul>
+                        <div id="productDescription" class="accordion-collapse collapse show bg-white" aria-labelledby="headingOne" data-bs-parent="#accordionSection">
+                            <div class="accordion-body p-5">
+                                <p>
+                                    Navy blazer, embroidered with the Aldridge School logo on the left breast.
+                                </p>
+                                <p>
+                                    This fitted girls school blazer is a classic three pocket design. Constructed
+                                    using a traditional tailored approach with a recycled stain resistant outer fabric.
+                                    Fully lined with twin back vents and an internal zip pocket for added security when
+                                    storing small valuables. This machine washable blazer looks great on and is made
+                                    to last.
+                                </p>
+                                <ul>
+                                    <li>
+                                        Recycled outer blazer fabric
+                                    </li>
+                                    <li>
+                                        Stain resistant
+                                    </li>
+                                    <li>
+                                        Internal zip pocket for security
+                                    </li>
+                                    <li>
+                                        Machine washable
+                                    </li>
+                                    <li>
+                                        100% Polyester
+                                    </li>
+                                <ul>                                
+                            </div>
+                        </div>
+                        <div id="reviews" class="accordion-collapse collapse bg-info" aria-labelledby="headingTwo" data-bs-parent="#accordionSection">
+                            <div class="accordion-body p-5">
+                                <p>
+                                    Review content would go here.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>       
     </div>
-    <div class="container" id="#collapseSection">
-        <div class="row">
-            <div class="col-12">
-                <ul class="nav nav-tabs">
-                  <li class="nav-item">
-                    <a class="nav-link active" data-toggle="collapse" data-target="#productDescription" data-parent="#collapseSection">Product Description</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" data-toggle="collapse" data-target="#reviews" data-parent="#collapseSection">Reviews</a>
-                  </li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="accordion-group">
-                    <div class="collapse show" id="productDescription">
-                        <p>
-                            Navy blazer, embroidered with the Aldridge School logo on the left breast.
-                        </p>
-                        <p>
-                            This fitted girls school blazer is a classic three pocket design. Constructed
-                            using a traditional tailored approach with a recycled stain resistant outer fabric.
-                            Fully lined with twin back vents and an internal zip pocket for added security when
-                            storing small valuables. This machine washable blazer looks great on and is made
-                            to last.
-                        </p>
-                        <ul>
-                            <li>
-                                Recycled outer blazer fabric
+    <div class="container-fluid d-lg-none" id="productReviewSectionMobile">
+            <div class="row">
+                <div class="col-12 px-0">
+                    <div class="accordion" id="accordionSectionMobile">
+                        <ul class="nav nav-tabs border-0">
+                            <li class="nav-item bg-white ps-0 p-3">
+                                <a class="nav-link border-0 text-left text-dark fw-bold pb-0 ps-5" href="#" data-bs-toggle="collapse" data-bs-target="#productDescriptionMobile" aria-expanded="true" aria-controls="productDescriptionMobile">
+                                    Product Description
+                                </a>
                             </li>
-                            <li>
-                                Stain resistant
+                        </ul>
+                        <div id="productDescriptionMobile" class="accordion-collapse collapse show bg-white" aria-labelledby="headingOne" data-bs-parent="#accordionSectionMobile">
+                            <div class="accordion-body p-5">
+                                <p>
+                                    Navy blazer, embroidered with the Aldridge School logo on the left breast.
+                                </p>
+                                <p>
+                                    This fitted girls school blazer is a classic three pocket design. Constructed
+                                    using a traditional tailored approach with a recycled stain resistant outer fabric.
+                                    Fully lined with twin back vents and an internal zip pocket for added security when
+                                    storing small valuables. This machine washable blazer looks great on and is made
+                                    to last.
+                                </p>
+                                <ul>
+                                    <li>
+                                        Recycled outer blazer fabric
+                                    </li>
+                                    <li>
+                                        Stain resistant
+                                    </li>
+                                    <li>
+                                        Internal zip pocket for security
+                                    </li>
+                                    <li>
+                                        Machine washable
+                                    </li>
+                                    <li>
+                                        100% Polyester
+                                    </li>
+                                <ul>                                
+                            </div>
+                        </div>
+                        <ul class="nav nav-tabs border-0">
+                            <li class="nav-item bg-info ms-auto ps-0 p-3">
+                                <a class="nav-link border-0 text-left text-dark fw-bold pb-0 ps-5" href="#" data-bs-toggle="collapse" data-bs-target="#reviewsMobile" aria-expanded="false" aria-controls="reviewsMobile">
+                                    Reviews
+                                </a>
                             </li>
-                            <li>
-                                Internal zip pocket for security
-                            </li>
-                            <li>
-                                Machine washable
-                            </li>
-                            <li>
-                                100% Polyester
-                            </li>
-                        <ul>
-                    </div>
-                    <div class="collapse show" id="reviews">
-                        
+                        </ul>
+                        <div id="reviewsMobile" class="accordion-collapse collapse bg-info" aria-labelledby="headingTwo" data-bs-parent="#accordionSectionMobile">
+                            <div class="accordion-body p-5">
+                                <p>
+                                    Review content would go here.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 </body>
+
 <footer>
-    <div class="container-fluid">
+    <div class="container-fluid" id="mainFooter">
         <div class="row">
-            <div class="col-5 bg-light">
-                <div class="row">
+            <div class="col-5 d-xl-block d-none py-5" id="footerSectionOne">
+                <div class="row pb-4">
                     <div class="col-12">
-                        <h3>CONTACT US</h3>
+                        <h3 class="text-primary fw-bold text-uppercase">Contact us</h3>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-6">
-                        <h6>Boldmere</h6>
-                        <a class="" href="#">0121 728 4452</a>
+                    <div class="col-6 pb-3">
+                        <h6 class="mb-0 fw-light">Boldmere</h6>
+                        <a class="fw-bold" href="#">0121 728 4452</a>
                     </div>
-                    <div class="col-6">
-                        <h6>Newcastle-under-Lyme</h6>
-                        <a class="" href="#">01782 621 721</a>
+                    <div class="col-6 pb-3">
+                        <h6 class="mb-0 fw-light">Newcastle-under-Lyme</h6>
+                        <a class="fw-bold" href="#">01782 621 721</a>
                     </div>
-                    <div class="col-6">
-                        <h6>Bearwood</h6>
-                        <a class="" href="#">0121 429 4244</a>
+                    <div class="col-6  pb-3">
+                        <h6 class="mb-0 fw-light">Bearwood</h6>
+                        <a class="fw-bold" href="#">0121 429 4244</a>
                     </div>
-                    <div class="col-6">
-                        <h6>Sheldon</h6>
-                        <a class="" href="#">0121 722 2286</a>
+                    <div class="col-6 pb-3">
+                        <h6 class="mb-0 fw-light">Sheldon</h6>
+                        <a class="fw-bold" href="#">0121 722 2286</a>
                     </div>
-                    <div class="col-6">
-                        <h6>Kings Heath</h6>
-                        <a class="" href="#">0121 728 6860</a>
+                    <div class="col-6 pb-3">
+                        <h6 class="mb-0 fw-light">Kings Heath</h6>
+                        <a class="fw-bold" href="#">0121 728 6860</a>
                     </div>
-                    <div class="col-6">
-                        <h6>Walsall</h6>
-                        <a class="" href="#">01922 622 556</a>
+                    <div class="col-6 pb-3">
+                        <h6 class="mb-0 fw-light">Walsall</h6>
+                        <a class="fw-bold" href="#">01922 622 556</a>
                     </div>
-                    <div class="col-6">
-                        <h6>Wholesale Enquiries</h6>
-                        <a class="" href="#">sales@clivemark.co.uk</a>
+                    <div class="col-6 pb-3">
+                        <h6 class="mb-0 fw-light">Wholesale Enquiries</h6>
+                        <a class="fw-bold" href="#">sales@clivemark.co.uk</a>
                     </div>
-                    <div class="col-6">
-                        <h6>Customer Order Enquiries</h6>
-                        <a class="" href="#">customerorders@clivemark.co.uk</a>
+                    <div class="col-6 pb-3">
+                        <h6 class="mb-0 fw-light">Customer Order Enquiries</h6>
+                        <a class="fw-bold" href="#">customerorders@clivemark.co.uk</a>
                     </div>
                 </div>
             </div>
-            <div class="col-7 bg-primary">
+            <div class="col-xl-7 col-12 py-5" id="footerSectionTwo">
                 <div class="row">
-                    <div class="col-5">
+                    <div class="col-md-5 col-12" id="footerColOne">
                         <div class="row">
-                            <div class="col-12">
-                                <h3>WAYS TO PAY</h3>
+                            <div class="col-12 pb-5">
+                                <h3 class="text-primary fw-bold text-uppercase pb-4">Ways to pay</h3>
                                 <img src="../Content/imgs/payment-providers.svg">
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-12">
-                                <h3>OUR PROVIDERS</h3>
+                            <div class="col-12 pb-5">
+                                <h3 class="text-primary fw-bold text-uppercase pb-4">Our providers</h3>
                                 <img src="../Content/imgs/product-suppliers.svg">
                             </div>
                         </div>
                     </div>                  
-                    <div class="col">
-                        <h3>OUR LINKS</h3>
+                    <div class="col-md col-12 pb-4" id="footerColTwo">
+                        <h3 class="text-primary fw-bold text-uppercase pb-4">Our links</h3>
                         <ul class="nav flex-column">
                             <li class="nav-item">
                                 <a class="nav-link" href="#">My Account</a>
@@ -434,8 +554,8 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col">
-                        <h3>INFORMATION</h3>
+                    <div class="col-md col-12" id="footerColThree">
+                        <h3 class="text-primary fw-bold text-uppercase pb-4">Information</h3>
                         <ul class="nav flex-column">
                             <li class="nav-item">
                                 <a class="nav-link" href="#">About Clive Mark</a>
@@ -464,12 +584,41 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 text-center">
-                <p>© Clive Mark Ltd 2021</p>
+    <div class="container-fluid" id="subFooter">
+        <div class="row py-3">
+            <div class="col-12 text-center text-white">
+                <p class="mb-0">© Clive Mark Ltd 2021</p>
             </div>
         </div>
     </div>
 </footer>
+<script src="../Content/js/bootstrap.bundle.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#imageCarousel").carousel();
+
+  $("#carousel-selector-1").click(function(){
+    $("#imageCarousel").carousel(0);
+  });
+  $("#carousel-selector-2").click(function(){
+    $("#imageCarousel").carousel(1);
+  });
+  $("#carousel-selector-3").click(function(){
+    $("#imageCarousel").carousel(2);
+  });
+  $("#carousel-selector-4").click(function(){
+    $("#imageCarousel").carousel(3);
+  });
+    
+  // Enable Carousel Controls
+  $(".carousel-control-prev").click(function(){
+    $("#imageCarousel").carousel("prev");
+  });
+  $(".carousel-control-next").click(function(){
+    $("#imageCarousel").carousel("next");
+  });
+});
+</script>
 </html>
